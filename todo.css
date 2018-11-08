@@ -1,0 +1,15 @@
+body {
+	background: teal;
+}
+
+li {
+	border:2px solid red;
+}
+
+#special {
+	border: 1px solid white;
+}
+
+.highlight {
+	text-decoration: line-through;
+}

@@ -1,0 +1,23 @@
+h1 {
+	color: #FF009F;
+/*	border-color: pink;
+	border-width: 5px;
+	border-style: double;*/
+
+	border: 5px double pink;
+}
+
+li {
+	color: brown;
+}
+
+h4 {
+	background: rgb(255,100,80);
+}
+
+body {
+	background: teal;
+/*	background: url(https://cdn.shopify.com/s/files/1/1310/3673/products/high-gloss-3k-2x2-twill_63dbbda5-afbb-4cbc-9fcc-151cfba0c973.jpg?v=1496777605);
+	background-repeat: no-repeat;
+	background-size: cover;*/ 
+}
