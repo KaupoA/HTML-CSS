@@ -21,8 +21,6 @@ html {
 h1 {
 	font-weight: 700;
 	font-size: 5em;
-	/*HR in the middle of the screen*/
-	max-width: 90%; 
 }
 
 /*h1, h3 {
@@ -40,5 +38,7 @@ h1 {
 hr {
 	width: 350px;
 	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(0,0,0,0.2);	
+	/*HR in the middle of the screen*/
+	max-width: 90%; 
 }
