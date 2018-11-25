@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Playing With Google</title>
+</head>
+<body>
+    
+    <p><em>Select logo</em></p>
+    <p>var logo = document.querySelector("#hplogo");</p>
+
+    <p><em>Update the source of the logo</em></p>
+    <p>logo.setAttribute("srcset", "https://i.pinimg.com/originals/b0/de/52/b0de529ce2af2fc3bc179901451934ae.jpg");</p>
+
+    <p><em>Select all links</em></p>
+    <p>var links = document.getElementsByTagName("a");</p> 
+
+    <p><em>Change style for all the links</em></p>
+    <p>for (var i = 0; i < links.length; i++) { <br>
+        links[i].style.border = "1px dashed red"; <br>
+        links[i].style.color = "orange"; <br>
+      }</p>
+
+    <p><em>Change all the links</em></p>
+    <p>for (var i = 0; i < links.length; i++) { <br>
+        links[i].setAttribute("href", "https://www.facebook.com"); <br>
+    }</p>
+
+</body>
+</html>
